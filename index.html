@@ -1,1 +1,28 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<div>
+    <a href="/logout">Logout</a>
+</div>
+<div id="loading-screen">
+    Loading data from server...
+</div>
+<table id="main">
+    <tr>
+        <td id="left"></td>
+        <td id="nay-votes"></td>
+        <td id="aye-votes"></td>
+    </tr>
+    <tr>
+        <td colspan=3 id="right"></td>
+        <td><div id="data-display"></div></td>
+    </tr>
+</table>
+</body>
+</html>
